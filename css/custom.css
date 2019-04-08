@@ -1,3 +1,7 @@
+.contiene-carousel{
+	position:relative;
+}
+
 .carousel-custom{
 	min-height: 512px;
 	position:relative;
