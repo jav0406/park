@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 768px){
 	.fa-angle-right, .fa-angle-left {
-		 opacity: 0.3;
+		 
 		 width: 30px;
 		 overflow: hidden;
 	}
@@ -64,6 +64,7 @@
 
 @media screen and (max-width:480px){
 	.carousel-custom{
-		min-height: none;
+		min-height: 0;
+		max-height: 180px;
 	}
 }
