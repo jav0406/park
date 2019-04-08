@@ -21,11 +21,38 @@
 }
 
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 989px){
 	.fa-angle-right {
 		 right: -50px;
 	}
+	.fa-angle-left {
+		 left: -50px;
+	}
 }
+
+@media screen and (max-width: 768px){
+	.fa-angle-right, .fa-angle-left {
+		 opacity: 0.3;
+		 width: 20px;
+		 overflow: hidden;
+	}
+	
+	.fa-angle-right {
+		 right: -16px;
+	}
+	
+	.fa-angle-right img, .fa-angle-left img {
+		 width: 50%;
+		 height: 50%;
+	}
+	
+	.fa-angle-left {
+		 left: -10px;
+	}
+	
+}
+
+
 
 
 

@@ -62,15 +62,13 @@
 	
 	
 	var instance = M.Carousel.init({
-    fullWidth: true,
-	indicators: true
+    fullWidth: true
   });
 
   // Or with jQuery
 
   $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-	indicators: true
+    fullWidth: true
   });
 	
 	
@@ -85,20 +83,15 @@
     $('.materialboxed').materialbox();
   });
 	
-	
 
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
-	  
-	  $('.carousel.carousel-slider').carousel();
-	  
-	   $('.fa-angle-right').click(function(){
-        $('.carousel.carousel-slider').carousel('next');
-      
-      });
-      $('.fa-angle-left').click(function(){
-        $('.carousel.carousel-slider').carousel('prev');
-       
-      });
+$('.fa-angle-right').click(function(){
+  $('.carousel.carousel-slider').carousel('next');
+
+});
+$('.fa-angle-left').click(function(){
+  $('.carousel.carousel-slider').carousel('prev');
+
+});
 	
 	
 	
