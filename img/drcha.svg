@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 120.78"><defs><style>.cls-1{fill:#999;}</style></defs><title>Recurso 1</title><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><g id="Forma_1" data-name="Forma 1"><path class="cls-1" d="M1.68,1.68a6.23,6.23,0,0,0,0,8.52L22.32,60.39,1.68,110.58a6.23,6.23,0,0,0,0,8.52,6.23,6.23,0,0,0,8.52,0L35.32,64.87a6.23,6.23,0,0,0,0-8.52L10.2,1.68A6.23,6.23,0,0,0,1.68,1.68Z"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 37 120.8" style="enable-background:new 0 0 37 120.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>Recurso 1</title>
+<g id="Capa_2">
+	<g id="Capa_1-2">
+		<g id="Forma_1">
+			<path class="st0" d="M1.7,1.7c-2.2,2.4-2.2,6.1,0,8.5l20.6,50.2L1.7,110.6c-2.2,2.4-2.2,6.1,0,8.5c2.4,2.2,6.1,2.2,8.5,0
+				l25.1-54.2c2.2-2.4,2.2-6.1,0-8.5L10.2,1.7C7.8-0.6,4.1-0.6,1.7,1.7z"/>
+		</g>
+	</g>
+</g>
+</svg>

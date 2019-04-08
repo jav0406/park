@@ -11,7 +11,7 @@
 .fa-angle-right, 
 .fa-angle-left {
     position: absolute;
-    top: 50%;
+    top: 45%;
     z-index: 99999;
     display: block;
     opacity: 0.5;
@@ -27,10 +27,10 @@
 
 @media screen and (min-width: 989px){
 	.fa-angle-right {
-		 right: -50px;
+		 right: 20px;
 	}
 	.fa-angle-left {
-		 left: -50px;
+		 left: 20px;
 	}
 }
 
@@ -41,17 +41,11 @@
 		 overflow: hidden;
 	}
 	
-	.fa-angle-right {
-		 right: -16px;
-	}
+	
 	
 	.fa-angle-right img, .fa-angle-left img {
 		 width: 50%;
 		 height: 50%;
-	}
-	
-	.fa-angle-left {
-		 left: -10px;
 	}
 	
 }
