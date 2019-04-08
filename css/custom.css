@@ -7,6 +7,23 @@
 	position:relative;
 }
 
+.carousel-item{
+	position:relative;
+}
+
+.carousel-item .label{
+	position:absolute;
+	padding: 5px;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	width: 75%;
+	bottom: 5%;
+	left: 5%;
+	z-index: 10000;
+	
+}
+
+
 
 .fa-angle-right, 
 .fa-angle-left {
