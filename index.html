@@ -60,6 +60,13 @@
 
   $(document).ready(function(){
     $('.carousel').carousel();
+	  
+	  $('.carousel.carousel-slider').carousel({
+		 fullWidth: true
+	  });
+	  
+	  $('.materialboxed').materialbox();
+	  
   });
 	
 	
@@ -69,9 +76,7 @@
 
   // Or with jQuery
 
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true
-  });
+  
 	
 	
 	document.addEventListener('DOMContentLoaded', function() {
@@ -81,10 +86,7 @@
 
   // Or with jQuery
 
-  $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
-	
+ 
 
 $('.fa-angle-right').click(function(){
   $('.carousel.carousel-slider').carousel('next');
@@ -94,6 +96,14 @@ $('.fa-angle-left').click(function(){
   $('.carousel.carousel-slider').carousel('prev');
 
 });
+	
+	
+/*	
+	
+	 $(document).ready(function(){
+    
+  });*/
+	
 	
 	
 	
