@@ -110,6 +110,9 @@ p{padding: 10px;}
 
 
 @media screen and (max-width:480px){
+	h1{
+		line-height: 120%;
+	}
 	.carousel-custom{
 		min-height: 0;
 		max-height: 180px;
