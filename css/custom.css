@@ -54,6 +54,18 @@ p{padding: 10px;}
 }
 
 @media screen and (max-width: 768px){
+	
+	.carousel-custom{
+		min-height: 0;
+		max-height: 300px;
+	}
+	
+	.carousel-item .label{
+		position:static;
+		background: rgba(0,0,0,0.8);
+		display:block;
+	}
+	
 	.fa-angle-right, .fa-angle-left {
 		 
 		 width: 30px;
