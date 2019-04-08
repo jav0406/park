@@ -57,6 +57,7 @@ h3{
 
 p{padding: 10px;}
 ul.listado{list-style-type: circle !important;}
+ul.listado > li{list-style-type: circle !important;}
 
 
 @media screen and (min-width: 989px){
