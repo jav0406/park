@@ -56,6 +56,7 @@ h3{
 }
 
 p{padding: 10px;}
+ul{list-style: circle;}
 
 
 @media screen and (min-width: 989px){
