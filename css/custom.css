@@ -1,3 +1,12 @@
 .carousel-custom{
-	height:auto;
+	min-height: 512px;
+}
+
+
+
+
+@media screen and (max-width:480px){
+	.carousel-custom{
+		min-height: none;
+	}
 }
