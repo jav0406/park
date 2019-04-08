@@ -15,11 +15,11 @@
 	position:absolute;
 	padding: 5px;
 	color: #fff;
-	background: rgba(0,0,0,0.5);
-	width: 75%;
+	background: rgba(0,0,0,0.6);
 	bottom: 5%;
 	left: 5%;
 	z-index: 10000;
+	display: inline-block;
 	
 }
 
@@ -83,5 +83,11 @@
 	.carousel-custom{
 		min-height: 0;
 		max-height: 180px;
+	}
+	
+	.carousel-item .label{
+		position:static;
+		background: rgba(0,0,0,0.8);
+		display:block;
 	}
 }
