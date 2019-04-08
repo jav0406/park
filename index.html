@@ -8,6 +8,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://javiercal.github.io/park/js/materialize.js"></script>
+
+  <script src="https://javiercal.github.io/park/js/js/init.js"></script>
 </head>
 <body>
 
@@ -21,13 +23,15 @@
 					<a class="carousel-item" href="#"><img src="https://javiercal.github.io/park/img/renders/mapa-solo-superficie1.jpg"></a>
 					<a class="carousel-item" href="#"><img src="https://javiercal.github.io/park/img/renders/mapa-agredados011.jpg"></a>
 				</div>
+				<a class="fa-angle-right"><img src="img/drcha.svg" style=""></a>
+				<a class="fa-angle-left"><img src="img/izda.svg" style=""></a>
 		</div>
 	</div>
 	
 	<div class="row">
 			<div class="col s12">
 			
-			<img src="https://javiercal.github.io/park/img/renders/perspectiva02-01-2.jpg">
+			<img src="https://javiercal.github.io/park/img/renders/perspectiva02-01-2.jpg" class="materialboxed" style="width: 100%">
 			
 			<p>Desplaza la barra para ver la simulación entre lo que hay ahora y el resultado</p>
 			
@@ -59,19 +63,47 @@
 	
 	var instance = M.Carousel.init({
     fullWidth: true,
-	indicators: true,
-		pressed: true,
-		arrows: true
+	indicators: true
   });
 
   // Or with jQuery
 
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
-	indicators: true,
-		pressed: true,
-		arrows: true
+	indicators: true
   });
+	
+	
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+	
+	
+
+	$('.carousel.carousel-slider').carousel({fullWidth: true});
+	  
+	  $('.carousel.carousel-slider').carousel();
+	  
+	   $('.fa-angle-right').click(function(){
+        $('.carousel.carousel-slider').carousel('next');
+      
+      });
+      $('.fa-angle-left').click(function(){
+        $('.carousel.carousel-slider').carousel('prev');
+       
+      });
+	
+	
+	
+	
+	
 </script>
 
 </body>

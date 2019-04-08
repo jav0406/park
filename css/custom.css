@@ -1,5 +1,30 @@
 .carousel-custom{
 	min-height: 512px;
+	position:relative;
+}
+
+
+.fa-angle-right, 
+.fa-angle-left {
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    display: block;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.fa-angle-right img, 
+.fa-angle-left img {
+    width: 37px;
+    height: 131px;
+}
+
+
+@media screen and (min-width: 992px){
+	.fa-angle-right {
+		 right: -50px;
+	}
 }
 
 
