@@ -41,6 +41,8 @@
     height: 131px;
 }
 
+p{padding: 10px;}
+
 
 @media screen and (min-width: 989px){
 	.fa-angle-right {
@@ -71,6 +73,13 @@
 	}
 	.fa-angle-left {
 		 left: 20px;
+	}
+	
+	h1{
+		font-size: 36px;
+	}
+	h2{
+		font-size: 24px;
 	}
 }
 
